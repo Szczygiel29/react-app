@@ -1,0 +1,44 @@
+@import url(../colors.css);
+
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: var(--secondary-color);
+    border:  none;
+    border-radius: 20px;
+    height: 2em;
+    max-width: 10em;
+    cursor: pointer;
+    display: block;
+    margin-top: 1em;
+  }
+
+  .Button:hover {
+    background-color: var(--light-color);
+  }
+
+  .Button.large {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: var(--secondary-color);
+    border:  none;
+    border-radius: 1rem;
+    max-height: 5rem;
+    max-width: 20rem;
+    cursor: pointer;
+    display: block;
+    margin-top: 1em;
+    font-size: 1.75rem;
+  }
+  
+  .Button.large:hover {
+    background-color: var(--light-color);
+  }
+
+  .Button.active {
+    background-color: var(--light-color);
+  }

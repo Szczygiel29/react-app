@@ -1,0 +1,43 @@
+@import url('../colors.css');
+
+.sausage-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var(--dark-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  font-family: 'oswald', 'saint-serif';
+}
+
+.sausage-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.sausage-card p:first-of-type {
+  text-align: center;
+}
+
+.sausage-card img {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .sausage-card {
+    padding: 10px;
+  }
+  .sausage-card img {
+    height: 150px;
+  }
+}
+  

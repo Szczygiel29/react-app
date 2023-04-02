@@ -1,0 +1,15 @@
+@import url(../colors.css);
+
+.cointainer>input{
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+    margin: 15px;
+}
+
+.cointainer {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-color);
+    flex-direction: column;
+}

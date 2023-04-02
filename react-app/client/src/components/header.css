@@ -1,0 +1,185 @@
+@import url(../colors.css);
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  background-image: url(../images/headerbg.jpg);
+  background-size: cover;
+  padding: 20px;
+  margin-top: 0;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+#logo_and_menu {
+  width: 100%;
+}
+
+#logo {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+  justify-content: flex-start;}
+
+#logo img {
+  height: 10%;
+  width: 30%;
+  border-radius: 50%;
+}
+
+#menu {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#menu nav {
+  width: 50%;
+  float: right;
+}
+
+#menu a {
+    font-family: 'Oswald', 'sans-serif';
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#description { /*  ???????? */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+  color: white;
+  margin-bottom: 4rem;
+}
+
+
+#description h1 {
+  font-family: 'Oswald', 'sans-serif';
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+#description p {
+  font-family: 'Lato', 'sans-serif';
+  font-size: 4rem;
+}
+
+#buttons {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  gap: 100px;
+}
+  
+
+#buttons button {
+  font-family: 'Oswald', 'sans-serif';
+  text-transform: uppercase;
+  margin-bottom: 20px;
+} 
+
+
+@media screen and (max-width: 1680px) {
+  #description h1 {
+    font-size: 5rem;
+  }
+  
+  #description p {
+    font-size: 2.5rem;
+
+  }
+}
+
+ 
+@media screen and (max-width: 1510px) {
+  #description h1 {
+    font-size: 4rem;
+  }
+  
+  #description p {
+    font-size: 2rem;
+
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  #description h1 {
+    font-size: 3rem;
+  }
+  
+  #description p {
+    font-size: 1.75rem;
+
+  }
+}
+@media screen and (max-width: 1310px) {
+  #description h1 {
+    font-size: 2rem;
+  }
+  
+  #description p {
+    font-size: 1.5rem;
+
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  #description h1 {
+    font-size: 3rem;
+  }
+  
+  #description p {
+    font-size: 1.25rem;
+
+  }
+}
+@media screen and (max-width: 1110px) {
+  #description h1 {
+    font-size: 2.5rem;
+  }
+  
+  #description p {
+    font-size: 1.25rem;
+
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #description h1 {
+    font-size: 2rem;
+  }
+  
+  #description p {
+    font-size: 1rem;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #description h1 {
+    font-size: 1.5rem;
+  }
+  
+  #description p {
+    font-size: 0.875rem;
+
+  }
+}

@@ -1,0 +1,67 @@
+
+.howto {
+	
+	background-image: url(https://www.lingvistov.ru/upload/wp-content/uploads/2013/09/sausage008.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: rgb(166, 75, 42);
+	border: 3px solid black;
+}
+
+.howto h2 {
+	font-size: 28px;
+	color: white;
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.howto h5 {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.how-to-lists {
+	display: flex;
+	justify-content: center;
+}
+
+.how-to-donate,
+.how-to-need {
+	width: 48%;
+	border-radius: 10px;
+    border: 5px solid black;
+    
+	justify-content: center;
+	text-align: center;
+    background-color: rgb(255, 235, 193)
+   
+}
+
+.how-to-donate h4,
+.how-to-need h4 {
+	font-size: 24px;
+    color: black;
+	margin-bottom: 20px;
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.how-to-donate ul,
+.how-to-need ul {
+	font-size: 18px;
+	color: black;
+	line-height: 1.5;
+	justify-content: center;
+    list-style-type: "🍖"; 
+    font-family: 'Lato', sans-serif;
+}
+
+.how-to-donate ul li,
+.how-to-need ul li {
+	margin-bottom: 10px;
+}

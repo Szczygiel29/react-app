@@ -1,0 +1,71 @@
+@import url('../colors.css');
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: var(--dark-color);
+  }
+  
+  .sausage-photo {
+    margin-top: 20px;
+  }
+  
+  .sausage-description {
+    margin-top: 10px;
+  }
+  
+  .sausage-weight {
+    margin-top: 10px;
+  }
+  
+  .first-name {
+    margin-top: 20px;
+  }
+  
+  .last-name {
+    margin-top: 10px;
+  }
+  
+  .phone-number {
+    margin-top: 10px;
+  }
+  
+  .city {
+    margin-top: 10px;
+  }
